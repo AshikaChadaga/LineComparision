@@ -17,11 +17,12 @@ public class LineComparitionCalculator {
 		int l2x1, l2y1, l2x2, l2y2;
 		Double length1, length2;
 		boolean isEqual;
+		int compareValue;
 		
 		l1x1 = 2;
 		l1y1 = 3;
 		l1x2 = 4;
-		l1y2 = 8;
+		l1y2 = 10;
 		length1 = length(l1x1, l1y1, l1x2, l1y2);
 		System.out.println("Length 1 : "+length1);
 		
@@ -38,7 +39,13 @@ public class LineComparitionCalculator {
 		else
 			System.out.println("The lines are not equal");
 		
-		
+		compareValue = length1.compareTo(length2);
+		if(compareValue < 0)
+			System.out.println("Line 1 is smaller than Line 2");
+		else if(compareValue == 0)
+			System.out.println("Line 1 is equal to Line 2");
+		else
+			System.out.println("Line 1 is greater than Line 2");
 		
 		
 	}
