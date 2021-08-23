@@ -38,10 +38,7 @@ public class LineComparitionCalculator {
 		if(isEqual)
 			System.out.println("The Lines are equal");
 		else
-			System.out.println("The lines are not equal");
-		
-		
-		
+			System.out.println("The lines are not equal");		
 		
 	}
 
