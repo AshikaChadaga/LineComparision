@@ -19,8 +19,6 @@ public class LineComparitionCalculator {
 		System.out.println("x2 : "+x2);
 		System.out.println("y1 : "+y1);
 		System.out.println("y2 : "+y2);
-		System.out.println("Length of the line is : "+length);
-		
+		System.out.println("Length of the line is : "+length);		
 	}
-
 }
