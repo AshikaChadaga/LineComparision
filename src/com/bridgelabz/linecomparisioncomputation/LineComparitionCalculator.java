@@ -47,8 +47,7 @@ public class LineComparitionCalculator {
 		else if(compareValue == 0)
 			System.out.println("Line 1 is equal to Line 2");
 		else
-			System.out.println("Line 1 is greater than Line 2");
-		
+			System.out.println("Line 1 is greater than Line 2");	
 		
 	}
 
