@@ -12,7 +12,8 @@ public class LineComparitionCalculator {
 	}
 	
 	public static void main(String[] args) {
-				
+		System.out.println("--------- Welcome to Line Comparision Computation -------------");
+		
 		int l1x1, l1y1, l1x2, l1y2;
 		int l2x1, l2y1, l2x2, l2y2;
 		Double length1, length2;
@@ -45,8 +46,7 @@ public class LineComparitionCalculator {
 		else if(compareValue == 0)
 			System.out.println("Line 1 is equal to Line 2");
 		else
-			System.out.println("Line 1 is greater than Line 2");
-		
+			System.out.println("Line 1 is greater than Line 2");		
 		
 	}
 
