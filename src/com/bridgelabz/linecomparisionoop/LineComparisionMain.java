@@ -37,9 +37,11 @@ public class LineComparisionMain {
 		line2.setEndCoordinates(line2X2, line2Y2);
 		
 		LengthComparisionIF lengthComparator = new LengthComparisionImpl();
+		
 		System.out.println("Checking if the Lines are Equal:");
 		lengthComparator.checkEqual(line1, line2);
 		System.out.println();
+		
 		System.out.println("Comparing the two lines: ");
 		lengthComparator.compareLength(line1, line2);
 		
