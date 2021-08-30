@@ -35,6 +35,7 @@ public class LengthComparisionImpl implements LengthComparisionIF{
 			System.out.println("Line 1 is equal to Line 2");
 		else
 			System.out.println("Line 1 is greater than Line 2");
+		
 	}
 	
 }
