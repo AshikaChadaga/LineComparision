@@ -20,6 +20,4 @@ public class Line {
 		startCoordinates.setXCoordinate(x2);
 		endCoordinates.setYCoordinate(y2);
 	}
-	
-	
 }
