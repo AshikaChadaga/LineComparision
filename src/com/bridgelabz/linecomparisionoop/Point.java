@@ -19,5 +19,4 @@ public class Point {
 	public void setYCoordinate(int yCoordinate) {
 		this.yCoordinate = yCoordinate;
 	}
-
 }
